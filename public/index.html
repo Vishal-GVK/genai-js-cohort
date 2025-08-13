@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="script.js"></script>
+</head>
+<body>
+  <br>
+  <label for="userInput">Input to be tokenized:</label>
+  <input type="text" name="userInput" id="userInput">
+  <button id="tokenizeButton" onclick="tokenizeInput()">Tokenize</button>
+  <br>
+  <br>
+  <label for="encodedInput">Encoded Input:</label>
+  <span name="encodedInput" id="encodedInput"></span>
+  <button id="detokenizeButton" onclick="detokenizeInput()">De-Tokenize</button>
+  <br>
+  <br>
+  <label for="decodedInput">Decoded Input:</label>
+  <span name="decodedInput" id="decodedInput"></span>
+  <br>
+  <br>
+  Result: <span id="result"></span>
+</body>
+</html>
